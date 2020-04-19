@@ -4,5 +4,8 @@
 - at least three number to form a peak.
 - in other words it can be seen as sequences numbers is first increase then peak then last decrease
 # Solution
-- replace the result by maximum as possible
-- iterate through all index and start consider peak form it
+- Replace the result by maximum as possible
+- Iterate through all index and start consider tip peak form it
+- the tip peak must satisfy condition as greater adjacent integers
+- continue to expand the tip length if it possible satisfy condition that greater than the adjacent.
+- after program ending consider a peak, compare their length with current maximum peak to get the LongestPeak
